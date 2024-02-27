@@ -1,8 +1,10 @@
 Feature: sign in request 
 Scenario: create an account or sign in offer, before finishing order
 
+
+
 Given I am on the home page
-When i select “Women -> Tops -> T-shirts” menu item 
+When I select "Women -> Tops -> T-shirts" menu items
 And I click on the product
 And select size and colour 
 And I click on the cart
