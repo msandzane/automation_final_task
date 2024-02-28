@@ -4,13 +4,10 @@ Scenario: create an account or sign in offer, before finishing order
 
 
 Given I am on the home page
-When I select "Women -> Tops -> T-shirts" menu items
-And I click on the product
-And select size and colour 
-And I click on the cart
-And I click on the Add to cart button 
+When I click on the "Best sellers" button
+And I click on a product
+And I select size and colour
+And I click on the Add to Cart button
 And I click on the Proceed to checkout button 
-Then I am directed to cart summary page 
-And I click on the Proceed to checkout button 
-Then I get directed to authetification page 
+Then I click on the Proceed to checkout button on summary page
 And I see two forms displayed to Create an account or Sign in 
